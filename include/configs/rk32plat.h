@@ -117,7 +117,7 @@
 #define CONFIG_RK32_FB
 
 /*default disable HDMI*/
-#undef CONFIG_RK_HDMI
+#define CONFIG_RK_HDMI
 
 #ifdef CONFIG_RK_HDMI
 #define CONFIG_RK32_HDMI
@@ -156,9 +156,6 @@
 
 /********************************** charger and pmic driver ********************************/
 #undef CONFIG_POWER_RK_SAMPLE
-#define CONFIG_POWER_RICOH619
-#define CONFIG_POWER_RK808
-#define CONFIG_POWER_RK818
 #define CONFIG_POWER_ACT8846
 
 #define CONFIG_POWER_FG_CW201X

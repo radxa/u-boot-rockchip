@@ -128,7 +128,7 @@
  * else just do as:
  *	#define CONFIG_PREBOOT
  */
-#define CONFIG_PREBOOT
+#define CONFIG_PREBOOT			"setenv bootdelay 1"
 #define CONFIG_CMD_BOOTRK
 #define CONFIG_BOOTCOMMAND		"bootrk"
 
