@@ -427,6 +427,7 @@ $(obj)RKLoader_uboot.bin: $(obj)u-boot.bin
 else
 $(obj)RKLoader_uboot.bin: $(obj)u-boot.bin
 	./tools/boot_merger ./tools/rk_tools/RKBOOT/$(RKCHIP).ini
+	./pack-sd.sh
 endif
 
 endif
